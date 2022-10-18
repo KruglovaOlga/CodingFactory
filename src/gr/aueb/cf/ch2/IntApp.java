@@ -1,0 +1,19 @@
+package gr.aueb.cf.ch2;
+/*
+*Int data types demo
+ */
+public class IntApp {
+    public static void main(String[] args) {
+        System.out.printf("Type: %s, Size: %d bits, Min: %d, Max: %d\n",
+                Integer.TYPE, Integer.SIZE,Integer.MIN_VALUE,Integer.MAX_VALUE);
+
+        System.out.printf("Type: %s, Size: %d bits, Min: %,d, Max: %,d\n",
+                Long.TYPE, Long.SIZE,Long.MIN_VALUE,Long.MAX_VALUE);
+
+        System.out.printf("Type: %s, Size: %d bits, Min: %,d, Max: %,d\n",
+                Short.TYPE, Short.BYTES,Short.MIN_VALUE,Short.MAX_VALUE);
+
+        System.out.printf("Type: %s, Size: %d bits, Min: %,d, Max: %,d\n",
+                Byte.TYPE, Byte.BYTES,Byte.MIN_VALUE,Byte.MAX_VALUE);
+    }
+}
