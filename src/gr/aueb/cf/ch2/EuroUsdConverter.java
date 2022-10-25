@@ -19,7 +19,7 @@ public class EuroUsdConverter {
         System.out.println("please insert an amount (Euros) ");
         inputEuros = in.nextInt();
 
-        totalUsaCents = inputEuros * 99;
+        totalUsaCents = inputEuros * PARITY;
         usaDollars = totalUsaCents / 100;
         usaCents = usaDollars % 100;
 
