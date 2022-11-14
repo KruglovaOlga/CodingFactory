@@ -1,5 +1,8 @@
 package gr.aueb.cf.ch5;
 
+/**
+ * Παραστάσεις floating point
+ */
 public class FloatingExpressionsApp {
 
     public static void main(String[] args) {
@@ -11,7 +14,12 @@ public class FloatingExpressionsApp {
         float floatResult = 0.0F;
         double doubleResult = 0.0;
 
+        //Αν υπάρχει ένας float μικρότερου μεγέθους οι
+        //τύποι μετατρέπονται σε float.
         floatResult = floatNum + intNum;
+
+        //Αν υπάρχει έστω και ένας double, τα intNum
+        // και floatNum μετατρέπονται σε double
         doubleResult = doubleNum + floatNum + intNum;
 
         System.out.printf("FloatResult = %f\n", floatResult);

@@ -1,5 +1,6 @@
 package gr.aueb.cf.ch5;
 
+
 /**
  * υπολογίζει το άθροισμα δύο ακεραίων
  * με την χρήση της μεθόδου add
@@ -7,6 +8,7 @@ package gr.aueb.cf.ch5;
 public class AddApp {
 
     public static void main(String[] args) {
+
         int a = 10;
         int b = 20;
         int sum = 0;
@@ -14,12 +16,13 @@ public class AddApp {
         sum = add(a,b);
     }
 
-    /**
-     * adds two integers
-     * @param a the first int
-     * @param b the second int to add
-     * @return the sum of a and b
-     */
+        /**
+         * adds two integers
+         * @param a the first int
+         * @param b the second int to add
+         * @return the sum of a and b
+         */
+
     public static int add(int a, int b) {
         return a + b;
         /*
@@ -28,5 +31,7 @@ public class AddApp {
         return sum;
 
          */
+
     }
 }
+

@@ -3,7 +3,7 @@ package gr.aueb.cf.ch4;
 /**
  * Character.toChars(codePoint)
  */
-public class AllEmojiesApp {
+public class AllEmojisApp {
 
     public static void main(String[] args) {
         int emojiStart = 0x1F600;
