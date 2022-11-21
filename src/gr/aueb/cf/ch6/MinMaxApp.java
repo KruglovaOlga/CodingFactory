@@ -3,6 +3,7 @@ package gr.aueb.cf.ch6;
 public class MinMaxApp {
 
     public static void main(String[] args) {
+
         int[] arr = {4, 5, 9, 14, 65};
         int minPosition = 0;
         int maxPosition = 0;
