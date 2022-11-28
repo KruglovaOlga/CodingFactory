@@ -23,9 +23,9 @@ public class ArraySearchApp {
             }
         }
         if (keyIsFound) {
-            System.out.println("The key is found in the position " + arr[position - 1] );
+            System.out.println("The key was found in the position " + arr[position - 1] );
         } else {
-            System.out.println("The key is not found");
+            System.out.println("The key was not found");
         }
     }
 }

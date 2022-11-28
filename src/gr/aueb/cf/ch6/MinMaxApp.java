@@ -4,25 +4,27 @@ public class MinMaxApp {
 
     public static void main(String[] args) {
 
-        int[] arr = {4, 5, 9, 14, 65};
+        int[] grades = {7, 5, 9, 10, 4, 6, 6, 7, 3, 8};
         int minPosition = 0;
         int maxPosition = 0;
-        int minValue = arr[minPosition];
-        int maxValue = arr[maxPosition];
 
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] < minValue) {
+        int minValue = grades[minPosition];
+        int maxValue = grades[maxPosition];
+
+        for (int i = 1; i < grades.length; i++) {
+            if (grades[i] < minValue) {
                 minPosition = i;
-                minValue = arr[i];
+                minValue = grades[i];
             }
-        }
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < maxValue) {
+
+            if (grades[i] > maxValue) {
                 maxPosition = i;
-                maxValue = arr[i];
+                maxValue = grades[i];
             }
         }
 
+        System.out.printf("MinValue:  %d, MinPosition: %d\n", minValue, minPosition + 1);
+        System.out.printf("MaxValue:  %d, MaxPosition: %d\n", maxValue, maxPosition + 1);
 
     }
 }

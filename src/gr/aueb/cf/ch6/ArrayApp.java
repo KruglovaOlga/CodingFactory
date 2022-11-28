@@ -12,7 +12,7 @@ public class ArrayApp {
         arr[2] = 13;
         arr[3] = 56;
 
-        //Traverse
+        //Traverse (διασχίση)
         for (int i =0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
