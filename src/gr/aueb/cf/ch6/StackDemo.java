@@ -1,6 +1,6 @@
 package gr.aueb.cf.ch6;
 
-public class StackApp {
+public class StackDemo {
     static int[] stack = new int[50];
     static int top = -1;
     public static void main(String[] args) {
@@ -14,7 +14,8 @@ public class StackApp {
         push(3);
 
         num = pop();
-        System.out.println("Num: " + num); //expected 3
+        System.out.println("Num was popped: " + num); //expected 3
+        System.out.println("Contents of the stack ");
 
         printStack();
     }

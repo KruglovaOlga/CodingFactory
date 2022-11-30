@@ -3,7 +3,7 @@ package gr.aueb.cf.ch6;
 import java.util.Arrays;
 
 //FIFO
-public class QueueApp {
+public class QueueDemo {
 
     static int[] queue = new int[50];
     static int top = -1;
