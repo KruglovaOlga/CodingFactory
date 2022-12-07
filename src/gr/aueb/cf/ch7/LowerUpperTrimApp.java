@@ -1,11 +1,11 @@
 package gr.aueb.cf.ch7;
 
-import java.util.Locale;
+
 
 public class LowerUpperTrimApp {
 
     public static void main(String[] args) {
-        String s = "   Athens University";
+        String s = "   Athens University of Economics and Business  ";
         String lowercase = "";
         String uppercase = "";
         String trimmed = "";

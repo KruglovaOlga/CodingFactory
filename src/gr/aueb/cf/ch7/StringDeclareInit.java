@@ -9,7 +9,7 @@ public class StringDeclareInit {
         System.out.println(alice + " and " + bob);
         System.out.printf("%s and %s", alice, bob);
 
+        System.out.println("Total length = " + (alice.length()) + bob.length());
+
     }
-
-
 }

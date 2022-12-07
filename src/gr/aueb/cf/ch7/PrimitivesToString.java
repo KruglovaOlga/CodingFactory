@@ -1,5 +1,9 @@
 package gr.aueb.cf.ch7;
 
+/**
+ * Με την .valueOf() που είναι static μέθοδος της κλάσης
+ * String μετατρέπουμε από άλλους τύπους σε String
+ */
 public class PrimitivesToString {
 
     public static void main(String[] args) {
