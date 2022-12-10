@@ -12,4 +12,5 @@ public class StringDeclareInit {
         System.out.println("Total length = " + (alice.length()) + bob.length());
 
     }
+
 }
