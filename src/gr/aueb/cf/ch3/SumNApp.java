@@ -1,5 +1,6 @@
 package gr.aueb.cf.ch3;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -19,6 +20,7 @@ public class SumNApp {
             i++;
         }
         System.out.println("sum = " + sum);
+
 
     }
 }
