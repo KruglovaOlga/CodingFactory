@@ -1,6 +1,4 @@
-package gr.aueb.cf.ch7;
-
-import java.util.Locale;
+package gr.aueb.cf.ch7String;
 
 public class StringEqualsApp {
 

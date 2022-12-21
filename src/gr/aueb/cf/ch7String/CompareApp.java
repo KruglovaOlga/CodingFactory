@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch7;
+package gr.aueb.cf.ch7String;
 
 /**
  * το ‘a‘ είναι μεγαλύτερο από το ‘Α‘ με βάση το σύστημα

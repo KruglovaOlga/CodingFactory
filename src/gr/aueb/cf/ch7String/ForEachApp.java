@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch7;
+package gr.aueb.cf.ch7String;
 
 /**
  * Prints a string as char array with for-each

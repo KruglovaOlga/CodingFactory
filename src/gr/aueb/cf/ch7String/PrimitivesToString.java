@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch7;
+package gr.aueb.cf.ch7String;
 
 /**
  * Με την .valueOf() που είναι static μέθοδος της κλάσης

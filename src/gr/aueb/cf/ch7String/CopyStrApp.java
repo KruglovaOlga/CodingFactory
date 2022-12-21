@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch7;
+package gr.aueb.cf.ch7String;
 
 /**
  * Αν αλλάξουμε το clone, δεν αλλάζει το s,

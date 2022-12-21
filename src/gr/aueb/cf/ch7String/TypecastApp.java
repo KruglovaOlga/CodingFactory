@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch7;
+package gr.aueb.cf.ch7String;
 /**
  * Typecast from String to int.
  * If the String is not valid int then
