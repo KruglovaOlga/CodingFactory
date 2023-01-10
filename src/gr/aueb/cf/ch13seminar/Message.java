@@ -4,6 +4,7 @@ public class Message {
     private Long id;
     private String title;
     private String body;
+
     public Message(){}
 
     public Long getId() {
