@@ -24,7 +24,13 @@ public class Point {
                 '}';
     }
 
+    /**
+     * @implSpec
+     *
+     */
     public void movePlus10() {
+        // x += 10;
+
         //Self-use
         for(int i = 1; i <= 10; i++) {
             movePlusOne();
