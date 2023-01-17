@@ -5,10 +5,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class Organizer extends User{
-
     private List<Seminar> seminars = new ArrayList<>();
     private List<SeminarInvitation> seminarInvitations = new ArrayList<>();
-
 
     public Organizer() {}
 
@@ -27,8 +25,6 @@ public class Organizer extends User{
     public List<SeminarInvitation> getAllSeminarInvitations(){
         return Collections.unmodifiableList(this.seminarInvitations);
     }
-
-
 
     public void setSeminars(List<Seminar> seminars) {
         this.seminars = seminars;

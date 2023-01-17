@@ -1,12 +1,10 @@
 package gr.aueb.cf.ch17seminarInheritance;
 
 public class UserCredentials extends IdentifiableEntity{
-
     private String username;
     private String password;
 
     public UserCredentials() {}
-
 
     public String getUsername() {
         return username;

@@ -5,7 +5,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class Participant extends User{
-
     private List<Seminar> seminars = new ArrayList<>();
     private List<SeminarResponse> seminarResponses = new ArrayList<>();
 
@@ -56,12 +55,5 @@ public class Participant extends User{
         seminarResponse.setSender(this);
         return true;
     }
-
-
-
-
-
-
-
 
 }

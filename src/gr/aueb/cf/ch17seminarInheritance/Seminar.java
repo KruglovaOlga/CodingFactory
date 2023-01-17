@@ -17,8 +17,6 @@ public class Seminar extends IdentifiableEntity{
 
     public Seminar(){}
 
-
-
     public String getTitle() {
         return title;
     }
@@ -46,8 +44,6 @@ public class Seminar extends IdentifiableEntity{
     public SchedulingPeriod getSchedulingPeriod() {
         return schedulingPeriod;
     }
-
-
 
     public void setTitle(String title) {
         this.title = title;

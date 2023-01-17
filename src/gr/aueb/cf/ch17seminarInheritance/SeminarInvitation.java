@@ -15,7 +15,6 @@ public class SeminarInvitation extends Message{
         this.sender = sender;
     }
 
-
     public SeminarInvitationType getType() {
         return type;
     }
