@@ -1,5 +1,8 @@
 package gr.aueb.cf.ch14.flyweight;
 
+/**
+ * Defines an immutable point
+ */
 public final class ImmutablePoint {
     private final int x;
     private final int y;

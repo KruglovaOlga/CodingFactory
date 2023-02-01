@@ -1,5 +1,8 @@
 package gr.aueb.cf.ch14.flyweight;
 
+/**
+ * Defines an immutable circle
+ */
 public final class ImmutableCircle {
     private final ImmutablePoint center;
     private final int radius;
