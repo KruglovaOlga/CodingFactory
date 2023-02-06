@@ -14,7 +14,7 @@ public class ArrayReplaceNextArraysClassApp {
     public static void main(String[] args) {
         int[] ages = {21, 18, 33, 25, 32, 45};
 
-        //Trancates one item at RHS
+        //Truncates one item at RHS
         ages = Arrays.copyOf(ages, ages.length +1);
 
         for (int age : ages){

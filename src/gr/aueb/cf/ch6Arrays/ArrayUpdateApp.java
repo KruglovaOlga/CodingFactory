@@ -1,7 +1,7 @@
 package gr.aueb.cf.ch6Arrays;
 
 /**
- * Replaces all occurences of KEY in array of ints
+ * Replaces all occurrences of KEY in array of ints
  */
 public class ArrayUpdateApp {
     public static void main(String[] args) {

@@ -16,7 +16,7 @@ public class ArrayReplaceNextApp {
         arr[arr.length - 1] = 0;
 
         for (int element : arr) {
-            System.out.println(element + " ");
+            System.out.print(element + " ");
         }
     }
 }
